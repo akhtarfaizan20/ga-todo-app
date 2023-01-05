@@ -31,7 +31,7 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: Upload Artifact
-        uses: actions/upload-page-artifact@v1
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./build
   deploy:
